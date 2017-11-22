@@ -12,7 +12,7 @@ void incrementa(int c)
 
 void main()
 {
-	int c;
+	int c = 0;
 	incrementa(c);
 	system("pause");
 }
