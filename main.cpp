@@ -1,6 +1,16 @@
+/**
+@author leonardo biondi
+@version 1.0.0
+@date 22/11/2017
+*/
 #include<iostream>
 using namespace std;
 
+/**
+la funzione incrementa stampa la variabile contatore per un totale di  volte incrementandola
+@param int c --> contatore
+@return stampa dei valori del contatore
+*/
 void incrementa(int c)
 {
 	for (int i = 0; i < 10; i++)
@@ -10,9 +20,12 @@ void incrementa(int c)
 	}
 }
 
+/**
+Main che richiama la funzione incrementa()
+*/
 void main()
 {
-	int c;
+	int c = 1;
 	incrementa(c);
 	system("pause");
 }
